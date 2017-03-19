@@ -1,0 +1,7 @@
+include *.txt *.md
+recursive-include tinymce/static *.*
+exclude requirements_dev.txt
+prune tests
+
+[bdist_wheel]
+universal=1
